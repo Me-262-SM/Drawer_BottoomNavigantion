@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_finished_mission"
+            android:icon="@drawable/ic_finished_mission"
+            android:title="已完成任务" />
+
+        <item
+            android:id="@+id/navigation_isdoing_mission"
+            android:icon="@drawable/ic_isdoing_mission"
+            android:title="处理中的任务" />
+
+        <item
+            android:id="@+id/navigation_new_mission"
+            android:icon="@drawable/ic_new_mission"
+            android:title="新任务" />
+
+    </group>
+</menu>

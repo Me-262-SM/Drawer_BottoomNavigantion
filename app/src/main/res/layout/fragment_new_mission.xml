@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Fragment_new_mission">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.yalantis.phoenix.PullToRefreshView
+        android:id="@+id/pull_to_refresh_new"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/water_selector">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/new_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.yalantis.phoenix.PullToRefreshView>
+
+</FrameLayout>
